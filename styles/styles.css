@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+main {
+    width: 80%;
+    margin: auto;
+}
+
 /* banner styles  */
 .banner {
     background-image: url("../images/banner/banner1.png");
@@ -50,4 +55,35 @@
     font-weight: 600;
     font-size: 20px;
 
+}
+
+/* previous section  */
+.previous-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 130px;
+}
+
+.previous-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-top: 100px;
+}
+
+.previous-description,
+ul {
+    color: #444343;
+    margin-top: 25px;
+}
+
+ul>li {
+    line-height: 35px;
+}
+
+ul>li>i {
+    margin-right: 10px;
+    color: #16D887;
 }
