@@ -156,3 +156,68 @@ ul>li>i {
     font-weight: 800;
     margin-top: 25px;
 }
+
+/* footer section  */
+footer {
+    background: #151414;
+    color: white;
+
+    margin-top: 130px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 330px;
+    padding: 130px 230px;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-left h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+
+}
+
+.left-details {
+    line-height: 35px;
+    color: #F8F8F8;
+}
+
+.left-info {
+    margin-top: 25px;
+}
+
+.footer-left img {
+    margin: 25px 10px 0 0;
+}
+
+.footer-right {
+    flex: 1;
+}
+
+.footer-right-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-right form input[type="email"] {
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footer-right form input[type="submit"] {
+    padding: 15px 25px;
+    color: #F15B22;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+}
